@@ -31,6 +31,6 @@
 *.out
 *.app
 
-# Libraries
+# Directories
 /.idea
 cmake-build-debug
