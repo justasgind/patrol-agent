@@ -4,5 +4,5 @@
 int main() {
     Engine engine;
 
-    engine.playerMovement();
+    engine.run();
 }

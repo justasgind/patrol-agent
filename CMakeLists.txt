@@ -10,5 +10,9 @@ add_executable(patrol_agent src/main.cpp
         src/Agent.cpp
         include/Agent.h
         src/Engine.cpp
-        include/Engine.h)
+        include/Engine.h
+        src/Patrol.cpp
+        include/Patrol.h
+        src/Player.cpp
+        include/Player.h)
 target_link_libraries(patrol_agent ${CURSES_LIBRARY})
