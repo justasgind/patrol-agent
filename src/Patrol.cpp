@@ -13,7 +13,7 @@ Patrol::Patrol(int startX, int startY) {
 void Patrol::Move() {
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<int> dis(-2, 2);
+    std::uniform_int_distribution<int> dis(-1, 1);
 
     int patrolX = dis(gen);
     int patrolY = dis(gen);
